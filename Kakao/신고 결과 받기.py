@@ -28,3 +28,5 @@ def solution(id_list, reports, k):
     answer = list(answer.values())
     
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/10

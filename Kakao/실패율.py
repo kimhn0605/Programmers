@@ -21,3 +21,5 @@ def solution(N, stages):
     for i in fail :
         answer.append(i[0])
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/12

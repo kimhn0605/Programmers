@@ -10,3 +10,5 @@ def solution(array, commands):
         answer.append(new[k-1])
         
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/9

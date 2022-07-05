@@ -41,3 +41,5 @@ def solution(new_id):
     id = FinalProcess(id)         # 조건 5~7단계 (문자 길이 검사)
 
     return id
+
+# 상세 설명 : https://apfhd.tistory.com/11
