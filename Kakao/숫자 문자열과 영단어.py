@@ -48,3 +48,5 @@ def solution(s):
         result += str(i)
         
     return int(result)
+
+# 상세 설명 : https://apfhd.tistory.com/13

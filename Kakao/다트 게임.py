@@ -36,3 +36,5 @@ def solution(dartResult):
             
     answer = sum(count)
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/17

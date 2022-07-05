@@ -52,3 +52,5 @@ def solution(numbers, hand):
                 else :
                     right = num
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/14

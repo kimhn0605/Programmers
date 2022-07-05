@@ -22,5 +22,7 @@ def solution(progresses, speeds):
             cnt += 1
             
         if r == len(remain)-1 :
-              answer.append(cnt)
+            answer.append(cnt)
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/20

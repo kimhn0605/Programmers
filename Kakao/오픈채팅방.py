@@ -38,3 +38,5 @@ def solution(record):
             str += (s[1] + '님이 나갔습니다.')
             answer.append(str)
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/18

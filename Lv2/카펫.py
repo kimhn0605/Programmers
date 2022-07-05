@@ -15,3 +15,5 @@ def solution(brown, yellow):
         if temp == brown :
             return [n[0], n[1]]
             break
+        
+# 상세 설명 : https://apfhd.tistory.com/19

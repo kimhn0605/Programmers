@@ -23,3 +23,5 @@ def solution(board, moves):
             del li[move-1][0]
             
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/15

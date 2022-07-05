@@ -11,3 +11,5 @@ def solution(d, budget):
             cnt += 1
             now += i
     return cnt
+
+# 상세 설명 : https://apfhd.tistory.com/22

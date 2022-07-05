@@ -30,3 +30,5 @@ def solution(n, arr1, arr2):
                 temp += '#'
         answer.append(temp)
     return answer
+
+# 상세 설명 : https://apfhd.tistory.com/16
