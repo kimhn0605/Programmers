@@ -16,7 +16,7 @@ def solution(genres, plays):
         #           Value : append() 이용해서 인덱스를 계속 덧붙여나감.
         dict_2[(genres[i], plays[i])].append(i)
 
-    # dict_1 을 Value 기준으로 내림차순해서재생 횟수가 높은 장르가 맨 앞에 올 수 있도록
+    # dict_1 을 Value 기준으로 내림차순해서 재생 횟수가 높은 장르가 맨 앞에 올 수 있도록
     dict_1 = sorted(dict_1.items(), reverse=True, key=lambda item: item[1])
 
     # genre_li : 총 재생 횟수가 높은 순서대로 저장해준 장르 리스트
@@ -37,7 +37,7 @@ def solution(genres, plays):
         for i in dict_3[gen] :
             hap.update(i)
         
-        # hap 을 Key 기준으로 내림차순해서장르 안에서 제일 높은 재생 횟수와 해당 노래의 인덱스를 알아냄
+        # hap 을 Key 기준으로 내림차순해서 장르 안에서 제일 높은 재생 횟수와 해당 노래의 인덱스를 알아냄
         hap = sorted(hap.items(), reverse = True)
         
         # 장르별로 최대 2개까지만 노래를 수록할 수 있기 때문에
