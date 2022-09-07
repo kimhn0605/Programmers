@@ -22,3 +22,4 @@ def comp(f, s):
     else :
         return sorted([f, s])[0]
     
+# 상세 설명 : https://apfhd.tistory.com/28
